@@ -13,10 +13,8 @@
   --grayish-blue: hsl(229, 6%, 66%);
   --very-light-gray: hsl(0, 0%, 98%);
 }
-
+/* font weights: 200, 400, 600 */
 body {
   font-size: 15px;
+  font-family: 'Poppins', sans-serif, monospace;
 }
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 200, 400, 600

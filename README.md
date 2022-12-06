@@ -15,8 +15,8 @@
 ### The challenge
 
 Users should be able to:
-  - 
-  -
+
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://pages.github.com/)
+- Solution URL: [GitHub Repo](https://github.com/SteveNoyes/four-card-feature)
+- Live Site URL: [GitHub Pages](https://stevenoyes.github.io/four-card-feature/)
 
 ## My process
 
@@ -38,11 +38,9 @@ Users should be able to:
 - HTML5 markup
 - CSS  
 - Flexbox
-- Vanilla JavaScript
 - Mobile-first workflow
 
 ### Featured Section
-
 
 ```html
 ```

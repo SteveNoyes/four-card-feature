@@ -14,10 +14,13 @@
   /* Box Shadow */
   --very-light-gray: hsl(0, 0%, 98%);
 }
-/* font weights: 200, 400, 600 */
+
+/* CRUD */
 /* * {
   border: 1px solid red!important;
 } */
+
+/* font weights: 200, 400, 600 */
 body {
   font-size: 15px;
   font-family: 'Poppins', sans-serif, monospace;
@@ -32,7 +35,8 @@ p {
 }
 
 .wrapper {
-  margin: 5rem;
+  width: 328px;
+  margin: auto;
 }
 
 .headerInfo {

@@ -53,7 +53,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [How to Center a Div](https://blog.devgenius.io/3-ways-to-center-a-div-with-css-3df9e66dbd42) - This helped me for XYZ reason. I really liked this pattern and will use it going forward. 
+- [Root Element - REM](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) - This helped me for XYZ reason. I really liked this pattern and will use it going forward. 
 
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Box shadow for button and div sections. 
 

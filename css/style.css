@@ -57,30 +57,35 @@ p {
   line-height: 1.2rem;
 }
 
-.card {
-  border: 1px solid green; 
+.card { 
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 12px 12px 2px 10px var(--very-light-gray);
+  border: 1px solid blue;
+  text-align: right;
 }
 
 .card h2 {
   font-size: 24px;
   font-weight: 600;
   padding-bottom: 1rem;
+  /* this feels like it's cheating but I'm not sure why */
+  text-align: left;
 }
 
 .card p {
   line-height: 1.5rem;
   padding-bottom: 2rem;
+  /* this too */
+  text-align: left;
 } 
 
 .card img {
-  
+  border: 1px solid red;
 }
 
 .supervisor {
-  border-top: 3px solid red;
+  border-top: 3px solid var(--cyan);
   font-weight: 400;
   font-size: 15px;
 }

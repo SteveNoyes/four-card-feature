@@ -61,7 +61,6 @@ p {
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 12px 12px 2px 10px var(--very-light-gray);
-  border: 1px solid blue;
   text-align: right;
 }
 
@@ -80,14 +79,22 @@ p {
   text-align: left;
 } 
 
-.card img {
-  border: 1px solid red;
-}
-
 .supervisor {
   border-top: 3px solid var(--cyan);
   font-weight: 400;
   font-size: 15px;
+}
+
+.teamBuilder {
+  border-top: 3px solid var(--red);
+}
+
+.karma {
+  border-top: 3px solid var(--orange);
+}
+
+.calculator {
+  border-top: 3px solid var(--blue);
 }
 
 .attribution {

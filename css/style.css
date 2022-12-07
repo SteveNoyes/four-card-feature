@@ -1,6 +1,4 @@
-/* - Mobile: 375px
-- Desktop: 1440px */
-
+/* Desktop: 1440px */
 /* Colors */
 :root {
   /* Primary */
@@ -17,4 +15,13 @@
 body {
   font-size: 15px;
   font-family: 'Poppins', sans-serif, monospace;
+}
+
+.wrapper {
+  border: 1px solid red;
+  padding: 1rem;
+}
+
+.headerInfo h1 {
+  font-size: 25px;
 }

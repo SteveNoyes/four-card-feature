@@ -20,11 +20,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/mobile0.png)
 
-![](./screenshot.jpg)
+![](./images/mobile1.png)
 
-![](./screenshot.jpg)
+![](./images/desktop0.png)
 
 ### Links
 
@@ -42,13 +42,23 @@ Users should be able to:
 
 ### Featured Section
 
-```html
-```
+To get the card svgs to align to the right I found it easier to align everything to the right and just change these two text align properties for the text. Though this feels backwards to me I am unsure how.
 
 ```css
-```
+.card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  /* this feels like it's cheating but I'm not sure why */
+  text-align: left;
+}
 
-```js
+.card p {
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+  /* this too */
+  text-align: left;
+} 
 ```
 
 ### Useful resources

@@ -1,4 +1,3 @@
-/* Desktop: 1440px */
 /* Colors */
 :root {
   /* Primary */
@@ -15,18 +14,7 @@
   --very-light-gray: hsla(0, 0%, 98%);
 }
 
-/* CRUD */
-/* * {
-  border: 1px solid red!important;
-} */
-
-/* 
- * font weights: 200, 400, 600 
- *
- * 200 - p tags
- * 400 - h2 tags
- * 600 - h1 tag
- */
+/* font weights: 200, 400, 600 */
 
 body {
   font-size: 15px;
@@ -127,9 +115,24 @@ section {
 }
 
 @media (min-width: 1440px) {
+
   .wrapper {
     width: 80%;
     margin: auto;
+  }
+
+  .headerInfo h1 {
+    font-size: 33px;
+  }
+  
+  .headerInfo span {
+    font-size: 34px;
+  }
+
+  .headerInfo p {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 2rem;
   }
 
   .cards {

@@ -83,6 +83,7 @@ section {
   box-shadow: 1px 10px 20px 10px var(--very-light-gray);
   text-align: right;
   margin-bottom: 2rem;
+  width: 300px;
 }
 
 .card h2 {
@@ -123,4 +124,26 @@ section {
 .attribution a {
   color: var(--grayish-blue);
   text-decoration: none;
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .supervisor {
+    margin-right: 2rem;
+  }
+
+  .calculator {
+    margin-left: 2rem;
+  }
+
 }

@@ -7,8 +7,11 @@
   --orange: hsl(34, 97%, 64%);
   --blue: hsl(212, 86%, 64%);
   /* Neutral */
+  /* H1 & H2 Text */
   --very-dark-blue: hsl(234, 12%, 34%);
+  /* Paragraph Text */
   --grayish-blue: hsl(229, 6%, 66%);
+  /* Box Shadow */
   --very-light-gray: hsl(0, 0%, 98%);
 }
 /* font weights: 200, 400, 600 */
@@ -17,11 +20,29 @@ body {
   font-family: 'Poppins', sans-serif, monospace;
 }
 
+h2 {
+  color: var(--very-dark-blue);
+}
+
+p {
+  color: var(--grayish-blue);
+}
+
 .wrapper {
   border: 1px solid red;
-  padding: 1rem;
+  margin: 2rem;
+}
+
+.headerInfo {
+  text-align: center;
 }
 
 .headerInfo h1 {
   font-size: 25px;
+  color: var(--grayish-blue);
+}
+
+.headerInfo span {
+  display: block;
+  color: var(--very-dark-blue);
 }
